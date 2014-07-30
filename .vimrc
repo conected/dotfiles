@@ -32,7 +32,7 @@ Plugin 'bling/vim-bufferline'
 
 Plugin 'airblade/vim-gitgutter'
 
-Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized'
 
 Plugin 'mbbill/undotree'
 
