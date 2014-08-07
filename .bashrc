@@ -123,6 +123,6 @@ complete -cf sudo
 export PATH=~/conf/cmds:${PATH}
 
 #load libs
-for LIB in `find ~/conf/lib/bash/autoload -type l`; do
-	source ${LIB}
-done
+#for LIB in `find ~/conf/lib/bash/autoload -type l`; do
+#	source ${LIB}
+#done
