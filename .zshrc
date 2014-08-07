@@ -48,7 +48,7 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(debian profiles git vi-mode zsh_reload virtualenv web-search sudo systemadmin command-not-found common-aliases django history history-substring-search mosh per-directory-history postgres python)
+plugins=(debian profiles git vi-mode zsh_reload virtualenv web-search sudo systemadmin command-not-found common-aliases django history history-substring-search mosh colored-man postgres python)
 
 source $ZSH/oh-my-zsh.sh
 
