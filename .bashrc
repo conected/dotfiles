@@ -126,3 +126,8 @@ export PATH=~/conf/cmds:${PATH}
 #for LIB in `find ~/conf/lib/bash/autoload -type l`; do
 #	source ${LIB}
 #done
+
+# Drop to zsh if available
+if [ -n "$(which zsh)" ]; then
+	zsh
+fi
