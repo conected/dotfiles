@@ -9,5 +9,5 @@ set so=10 "x lines of scope (top/bottom)
 set hlsearch "hilghlight search matches
 set incsearch "update searches while typing
 
-set listchars=tab:\│\ ,trail:.,extends:>,precedes:<,eol:$ "non-printable characters substitution
+set listchars=tab:\›\ ,trail:.,extends:>,precedes:<,eol:↲ "non-printable characters substitution
 set list "show non-printable characters
