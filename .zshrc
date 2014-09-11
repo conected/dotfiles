@@ -12,7 +12,7 @@ ZSH_THEME="agnoster"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -24,7 +24,7 @@ ZSH_THEME="agnoster"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to disable command auto-correction.
 # DISABLE_CORRECTION="true"
@@ -40,7 +40,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="dd.mm.yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -53,33 +53,6 @@ plugins=(debian profiles git vi-mode zsh_reload virtualenv virtualenvwrapper web
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-export EDITOR='vim'
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# Appropriate keybindings vor vi-mode
-bindkey -v
-bindkey "^P" vi-up-line-or-history
-bindkey "^N" vi-down-line-or-history
-
-bindkey "^[[1~" vi-beginning-of-line   # Home
-bindkey "^[[4~" vi-end-of-line         # End
-bindkey '^[[2~' beep                   # Insert
-bindkey '^[[3~' delete-char            # Del
-bindkey '^[[5~' vi-backward-blank-word # Page Up
-bindkey '^[[6~' vi-forward-blank-word  # Page Down
-
 # cmd aliases
 source ~/.bash_aliases
 
