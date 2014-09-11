@@ -52,6 +52,10 @@ plugins=(debian profiles git vi-mode zsh_reload virtualenv web-search sudo syste
 
 source $ZSH/oh-my-zsh.sh
 
+# User configuration
+# cmd aliases
+source ~/.bash_aliases
+
 if  [[ -f /usr/bin/byobu-launch ]]; then
 	byobu_sourced=1 . /usr/bin/byobu-launch
 fi
