@@ -11,3 +11,4 @@ set incsearch "update searches while typing
 
 set listchars=tab:\›\ ,trail:.,extends:>,precedes:<,eol:↲ "non-printable characters substitution
 set list "show non-printable characters
+hi NonText ctermfg=8 guifg=8
