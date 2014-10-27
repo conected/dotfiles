@@ -11,3 +11,6 @@ source ~/.vim/rc.folding.vim
 source ~/.vim/rc.buffers.vim
 source ~/.vim/rc.navigation.vim
 source ~/.vim/rc.files.vim
+
+source ~/.vim/rc.syntastic.vim
+source ~/.vim/rc.pymode.vim
